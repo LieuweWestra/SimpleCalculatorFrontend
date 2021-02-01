@@ -13,8 +13,29 @@ export class CalculatorComponent implements OnInit {
 
   }
 
-  add(nr:number){
+  put(nr:number){
     console.log("adding " + nr);
+  }
+  previous(){
+    
+  }
+  next(){
+    
+  }
+  add(){
+    
+  }
+  subtract(){
+    
+  }
+  multiply(){
+    
+  }
+  devide(){
+    
+  }
+  calculate(){
+    
   }
 
 }

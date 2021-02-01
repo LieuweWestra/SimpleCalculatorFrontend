@@ -1,22 +1,24 @@
-<input/>
+<input class="first"/>
+<input class="operator"/>
+<input class="last"/>
 <br>
-<button>Previous</button>
-<button>Next</button>
+<button (click)="previous()">Previous</button>
+<button (click)="next()">Next</button>
 <br>
-<button (click)="add(1)">1</button>
-<button (click)="add(2)">2</button>
-<button (click)="add(3)">3</button>
+<button (click)="put(1)">1</button>
+<button (click)="put(2)">2</button>
+<button (click)="put(3)">3</button>
 <br>
-<button (click)="add(4)">4</button>
-<button (click)="add(5)">5</button>
-<button (click)="add(6)">6</button>
+<button (click)="put(4)">4</button>
+<button (click)="put(5)">5</button>
+<button (click)="put(6)">6</button>
 <br>
-<button (click)="add(7)">7</button>
-<button (click)="add(8)">8</button>
-<button (click)="add(9)">9</button>
+<button (click)="put(7)">7</button>
+<button (click)="put(8)">8</button>
+<button (click)="put(9)">9</button>
 <br>
-<button>+</button>
-<button>-</button>
-<button>*</button>
-<button>/</button>
-<button>=</button>
+<button (click)="add()">+</button>
+<button (click)="subtract()">-</button>
+<button (click)="multiply()">*</button>
+<button (click)="devide()">/</button>
+<button (click)="calculate()">=</button>
